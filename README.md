@@ -34,7 +34,7 @@
 
 1. 从源码构建：参考官方的MOD文档中的说明自行编译。
 2. 下载releases页面中的`duckov_wishes.zip`，解压后将其放入游戏的`Mods`文件夹中（如无则创建）。
-3. 从steam创意工坊订阅本Mod，Steam会自动帮你安装。
+3. 从steam创意工坊订阅本Mod，Steam会自动帮你安装。创意工坊地址:[steamcommunity.com/sharedfiles/filedetails/?id=3596231209](steamcommunity.com/sharedfiles/filedetails/?id=3596231209)
 
 ## 🔧 从源码构建
 
