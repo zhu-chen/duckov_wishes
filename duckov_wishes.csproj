@@ -3,6 +3,22 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+  
+  	<DuckovPath>D:\SteamLibrary\steamapps\common\Escape from Duckov\Duckov_Data\Managed\</DuckovPath>
+
   </PropertyGroup>
+
+ <!-- Exclude decompiled reference sources from compilation; we only reference official DLLs -->
+ <ItemGroup>
+ <Compile Remove="ref\**\*.cs" />
+
+ </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="$(DuckovPath)TeamSoda.*"/>
+		<Reference Include="$(DuckovPath)ItemStatsSystem.dll"/>
+		<Reference Include="$(DuckovPath)Unity*"/>
+	</ItemGroup>
+	
 
 </Project>
